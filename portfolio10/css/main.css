@@ -19,6 +19,7 @@ body {
 }
 #box4 {
     background-color: yellow;
+    float: left;
 }
 
 .box{
@@ -32,6 +33,7 @@ body {
 
 #wrapper{
     width: 960px;
+    height: 1553px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,9 +47,14 @@ body {
     line-height: 27px;
 }
 
-#content h2{
+#content h1{
     font-size: 42px;
     line-height: 65px;
+}
+
+#content h2{
+    font-size: 33px;
+    line-height: 52px;
 }
 
 #content h3{
@@ -63,6 +70,11 @@ body {
 #content h5{
     font-size:16px;
     line-height:27;
+}
+
+#content h6{
+    font-size: 13px;
+    line-height: 23px;
 }
 #sidebar{
     width: 367px;
