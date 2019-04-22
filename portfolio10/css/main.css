@@ -69,13 +69,14 @@ body {
 
 #content h5{
     font-size:16px;
-    line-height:27;
+    line-height:27px;
 }
 
 #content h6{
     font-size: 13px;
     line-height: 23px;
 }
+
 #sidebar{
     width: 367px;
     float: left;
