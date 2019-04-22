@@ -39,12 +39,13 @@ body {
 }
 */
 #content{
-    width: 541px;
+    width: 1533px;
     padding-right: 24px;
     padding-left: 24px;
     float: left;
     font-size: 16px;
     line-height: 27px;
+    height: 1553px;
 }
 
 #content h1{
@@ -87,6 +88,35 @@ body {
     text-align: center;
 
 }
+h1{
+    padding-left: 5px;
+}
+
+h2{
+    padding-left: 5px;
+    float: right;
+}
+
+h3{
+    display: inline;
+    padding-left: 5px;
+}
+
+h4{
+     display: inline;
+     padding-left: 5px;
+}
+
+h5{
+    display: inline;
+    padding-left: 5px;
+}
+
+h6{
+    display: inline;
+    padding-left: 5px;
+}
+
 
 #floater{
     clear: both;
@@ -115,4 +145,13 @@ body {
     <div id="sidebar" class="fullborder">
         Sidebar
     </div>
+ */
+
+/*in html file deleted following,
+<div id="wrapper" class="fullborder">
+    <div id="header" class="fullborder">
+        Header
+
+    </div>
+    <div id="content" class="fullborder">
  */
