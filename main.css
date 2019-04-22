@@ -3,6 +3,9 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
 }
+.fullborder{
+    border: black solid thin;
+}
 
 #box1 {
     background-color: green;
@@ -25,10 +28,6 @@ body {
 .box{
     width : 100px;
     height : 100px;
-}
-
-.fullborder{
-    border: black solid thin;
 }
 
 #wrapper{
