@@ -6,7 +6,7 @@ body {
 .fullborder{
     border: black solid thin;
 }
-
+/*
 #box1 {
     background-color: green;
     float: left;
@@ -34,6 +34,7 @@ body {
     width : 33.33%;
     padding : 50px;
 }
+*/
 
 /*
 #wrapper{

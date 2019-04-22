@@ -10,6 +10,24 @@
 
     <link rel="stylesheet" href="main.css?v=1.0">
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .box {
+            float: left;
+            width: 33.33%;
+            padding: 50px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,6 +36,22 @@
         Header
 
     </div>
+
+    <h2></h2>
+
+    <div class="clearfix">
+        <div class="box" style="float:right; width: 100px; height: 175px; background-color:grey">
+            <p>link 1</p>
+        </div>
+        <div class="box" style="float:right; width: 100px; height: 175px; background-color:lightgrey">
+            <p>link 2</p>
+        </div>
+        <div class="box" style="float:right; clear: both; width: 100px; height: 175px; background-color:lightgrey">
+            <p>link3</p>
+        </div>
+    </div>
+
+
     <div id="content" class="fullborder">
         <h1>Article Heading</h1>
         <p>
