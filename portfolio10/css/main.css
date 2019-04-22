@@ -85,3 +85,11 @@ body {
 #floater{
     clear: both;
 }
+
+#footer{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    clear: both;
+}
