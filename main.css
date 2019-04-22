@@ -6,7 +6,7 @@ body {
 .fullborder{
     border: black solid thin;
 }
-
+/*
 #box1 {
     background-color: green;
     float: left;
@@ -29,14 +29,15 @@ body {
     width : 100px;
     height : 100px;
 }
-
+*/
+/*
 #wrapper{
     width: 960px;
     height: 1553px;
     margin-left: auto;
     margin-right: auto;
 }
-
+*/
 #content{
     width: 541px;
     padding-right: 24px;
@@ -75,14 +76,16 @@ body {
     font-size: 13px;
     line-height: 23px;
 }
-
+/*
 #sidebar{
     width: 367px;
     float: left;
 }
-
+*/
 #header{
+    background-color: lightgreen;
     text-align: center;
+
 }
 
 #floater{
@@ -96,3 +99,18 @@ body {
     color: black;
     clear: both;
 }
+
+#sidebar{
+    float: right;
+}
+
+/*took out the following from html file: sidebar (following the heading info
+<h3> Heading 3 </h3>
+        <h4> Heading 4 </h4>
+        <h5> Heading 5 </h5>
+        <h6> Heading 6 </h6>
+    </div>
+    <div id="sidebar" class="fullborder">
+        Sidebar
+    </div>
+ */
