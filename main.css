@@ -6,7 +6,7 @@ body {
 .fullborder{
     border: black solid thin;
 }
-/*
+
 #box1 {
     background-color: green;
     float: left;
@@ -25,11 +25,16 @@ body {
     float: left;
 }
 
-.box{
-    width : 100px;
-    height : 100px;
+*{
+    box-sizing: border-box;
 }
-*/
+
+.box{
+    float: right;
+    width : 33.33%;
+    padding : 50px;
+}
+
 /*
 #wrapper{
     width: 960px;
@@ -85,6 +90,7 @@ body {
 */
 #header{
     background-color: lightgreen;
+    height: 60px;
     text-align: center;
 
 }
@@ -94,7 +100,6 @@ h1{
 
 h2{
     padding-left: 5px;
-    float: right;
 }
 
 h3{
