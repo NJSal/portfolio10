@@ -90,9 +90,11 @@ body {
 }
 */
 #header{
-    background-color: lightgreen;
-    height: 60px;
-    text-align: center;
+    background-color: white;
+    height: 120px;
+    font-size: 48px;
+    float: left;
+
 
 }
 h1{
@@ -109,8 +111,8 @@ h3{
 }
 
 h4{
-     display: inline;
-     padding-left: 5px;
+    display: inline;
+    padding-left: 5px;
 }
 
 h5{
@@ -129,7 +131,7 @@ h6{
 }
 
 #footer{
-    background-color: lightgreen;
+    background-color: white;
     padding: 10px;
     text-align: center;
     color: black;
@@ -138,7 +140,7 @@ h6{
 
 #sidebar{
     float: right;
-    width: 800px;
+    width: 352px;
     height: 1553px;
 }
 
